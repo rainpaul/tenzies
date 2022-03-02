@@ -6,7 +6,7 @@ export default function Die(props){
     return(
         <div>
             <div className="container--item" style={style} onClick={() => props.holdDice(props.id)}>
-                <img src={`.//images/${props.value}.jpeg`} width="100%" height="100%"></img>
+                <img src={`.//images/${props.value}.jpeg`}></img>
             </div>
             {/* src = {`./images/${props.isFilled ? "star-filled.png" : "star-empty.png"}`} */}
         </div>
