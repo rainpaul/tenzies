@@ -93,7 +93,7 @@ function App() {
     <main className="App">
       {tenzies && <Confetti width="1000px" height="500px"></Confetti> }
       <h1>Tenzies for bé Duyên</h1>
-      <h3>{tenzies ? "You made it, Ti heo" : "Roll until all dice are the same. Click each die to freeze it as its current value between rools."} </h3>
+      <h3>{tenzies ? "You made it, Ty heo" : "Roll until all dice are the same. Click each die to freeze it as its current value between rools."} </h3>
       <div className='container'>
         {dice.map(die => <Die 
         value={die.value} 
